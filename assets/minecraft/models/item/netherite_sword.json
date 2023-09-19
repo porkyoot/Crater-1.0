@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_sword"
+  },
+  "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/sunset_sword"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/vaporwave_sword"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/ocams_razor"}
+  ]
+}
