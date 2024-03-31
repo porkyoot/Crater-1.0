@@ -6,40 +6,44 @@
 
 	"overrides": [
 		{
-			"predicate": { "custom_model_data": 376221},
+			"predicate": { "custom_model_data": 137500},
 			"model": "item/warp_portals/warped_orb"
 		},
 		{
-			"predicate": { "custom_model_data": 137900},
+			"predicate": { "custom_model_data": 137501},
 			"model": "item/warp_portals/primordial_orb"
 		},
 		{
-			"predicate": { "custom_model_data": 137901},
+			"predicate": { "custom_model_data": 137502},
 			"model": "item/warp_portals/primordial_warped_orb"
 		},
 		{
-			"predicate": { "custom_model_data": 137902},
-			"model": "item/warp_portals/radiated_orb"
-		},
-		{
-			"predicate": { "custom_model_data": 137903},
-			"model": "item/warp_portals/radiated_warped_orb"
-		},
-		{
-			"predicate": { "custom_model_data": 137904},
-			"model": "item/warp_portals/technical_orb"
-		},
-		{
-			"predicate": { "custom_model_data": 137905},
-			"model": "item/warp_portals/technical_warped_orb"
-		},
-		{
-			"predicate": { "custom_model_data": 137906},
+			"predicate": { "custom_model_data": 137503},
 			"model": "item/warp_portals/corrupted_orb"
 		},
 		{
-			"predicate": { "custom_model_data": 137907},
+			"predicate": { "custom_model_data": 137504},
 			"model": "item/warp_portals/corrupted_warped_orb"
+		},
+		{
+			"predicate": { "custom_model_data": 137505},
+			"model": "item/warp_portals/radiated_orb"
+		},
+		{
+			"predicate": { "custom_model_data": 137506},
+			"model": "item/warp_portals/radiated_warped_orb"
+		},
+		{
+			"predicate": { "custom_model_data": 137507},
+			"model": "item/warp_portals/technical_orb"
+		},
+		{
+			"predicate": { "custom_model_data": 137508},
+			"model": "item/warp_portals/technical_warped_orb"
+		},
+		{
+			"predicate": { "custom_model_data": 376221},
+			"model": "item/warp_portals/warped_orb"
 		}
 	]
 
