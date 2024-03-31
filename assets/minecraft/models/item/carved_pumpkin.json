@@ -1,10 +1,10 @@
 {
     "parent": "minecraft:block/carved_pumpkin",
     "overrides": [
-        { "predicate": {"custom_model_data": 1}, "model": "item/big_kiro_plushie"},
-        { "predicate": {"custom_model_data": 2}, "model": "item/pikachu_plushie"},
-        { "predicate": {"custom_model_data": 3}, "model": "item/kiro_plushie"},
-        { "predicate": {"custom_model_data": 4}, "model": "item/rainbowcookie_plushie"},
-        { "predicate": {"custom_model_data": 5}, "model": "item/desi_plushie"}
+        { "predicate": {"custom_model_data": 1}, "model": "item/plushies/big_kiro_plushie"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/plushies/pikachu_plushie"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/plushies/kiro_plushie"},
+        { "predicate": {"custom_model_data": 4}, "model": "item/plushies/rainbowcookie_plushie"},
+        { "predicate": {"custom_model_data": 5}, "model": "item/plushies/desi_plushie"}
     ]
 }

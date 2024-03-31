@@ -4,6 +4,6 @@
     "layer0": "minecraft:item/flint_and_steel"
   },
   "overrides": [
-        { "predicate": {"custom_model_data": 1}, "model": "item/flame_thrower"}
+        { "predicate": {"custom_model_data": 1}, "model": "item/weapons/flame_thrower"}
   ]
 }

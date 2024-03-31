@@ -4,6 +4,6 @@
     "layer0": "minecraft:item/shears"
   },
   "overrides": [
-        { "predicate": {"custom_model_data": 1}, "model": "item/ryokus_scissor"}
+        { "predicate": {"custom_model_data": 1}, "model": "item/weapons/ryokus_scissor"}
   ]
 }

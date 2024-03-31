@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/warp_portals/primordial_orb"
+	},
+	
+	"ambientocclusion": false
+}

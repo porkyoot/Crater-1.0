@@ -11,6 +11,6 @@
         }
     },
     "overrides": [
-        { "predicate": {"custom_model_data": 1}, "model": "item/fishe_au_chocolat"}
+        { "predicate": {"custom_model_data": 1}, "model": "item/foods/fishe_au_chocolat"}
     ]
 }

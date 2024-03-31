@@ -4,6 +4,6 @@
     "layer0": "minecraft:item/netherite_shovel"
   },
   "overrides": [
-    { "predicate": {"custom_model_data": 1}, "model": "item/spoon"}
+    { "predicate": {"custom_model_data": 1}, "model": "item/tools/spoon"}
   ]
 }
