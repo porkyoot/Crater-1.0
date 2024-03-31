@@ -1,6 +1,7 @@
 {
     "pack": {
         "pack_format": 15,
+		"supported_formats": [15, 22],
         "description": "Custom RessourcePack using CustomModelData for the Crater server [Étoile @porkyoot]"
     }
 
