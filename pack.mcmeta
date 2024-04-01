@@ -1,17 +1,17 @@
 {
-"name": "crater_minecraft",
-"version": "1.7.0",
-"author": "Étoile @porkyoot",
-"pack": {
-    "pack_format": 22,
-    "supported_formats": [15, 22],
-    "description": "Custom RessourcePack using CustomModelData for the Crater server",
-    "language": {
-        "us_us": {
-            "name": "English",
-            "region": "English",
-            "bidirectional": false
+    "name" : "crater_minecraft",
+    "version" : "1.7.0",
+    "author" : "Étoile @porkyoot",
+    "pack" : {
+        "pack_format" : 22,
+        "supported_formats" : [15, 22],
+        "description" : "Custom RessourcePack using CustomModelData for the Crater server",
+        "language" : {
+            "us_us" : {
+                "name" : "English",
+                "region" : "English",
+                "bidirectional" : false
+            }
         }
     }
-}
 }
