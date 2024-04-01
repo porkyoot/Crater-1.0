@@ -34,27 +34,26 @@ jobs:
       - name: Extract vanilla-tweaks.zip
         uses: montudor/action-zip@v1
         with:
-          args: unzip -n merge/* -d $GITHUB_WORKSPACE
+          args: unzip -n merge/* -d .
 
       # Runs a set of commands using the runners shell
       - name: Making release zip file
         uses: TheDoctor0/zip-release@0.7.6
         with:
           type: 'zip'
-          filename: 'crater-ressourcepack.zip'
-          exclusions: '*.git* *.zip *.xcf merge'
+          filename: 'release/crater-ressourcepack.zip'
+          exclusions: '*.git* *.zip *.xcf merge/*'
 
       - name: Bump version and push tag
         id: tag_version
         uses: mathieudutour/github-tag-action@v6.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          custom_tag: v1.6.1
 
       - name: Upload Release
         uses: ncipollo/release-action@v1.12.0
         with:
-          artifacts: "crater-ressourcepack.zip"
+          artifacts: "release/crater-ressourcepack.zip"
           tag: ${{ steps.tag_version.outputs.new_tag }}
           name: Release ${{ steps.tag_version.outputs.new_tag }}
           body: ${{ steps.tag_version.outputs.changelog }}
