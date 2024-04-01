@@ -41,7 +41,7 @@ jobs:
         uses: TheDoctor0/zip-release@0.7.6
         with:
           type: 'zip'
-          filename: 'release/crater-ressourcepack.zip'
+          filename: 'crater-ressourcepack.zip'
           exclusions: '*.git* *.zip *.xcf merge/*'
 
       - name: Bump version and push tag
@@ -53,7 +53,7 @@ jobs:
       - name: Upload Release
         uses: ncipollo/release-action@v1.12.0
         with:
-          artifacts: "release/crater-ressourcepack.zip"
+          artifacts: "crater-ressourcepack.zip"
           tag: ${{ steps.tag_version.outputs.new_tag }}
           name: Release ${{ steps.tag_version.outputs.new_tag }}
           body: ${{ steps.tag_version.outputs.changelog }}
