@@ -44,6 +44,8 @@ jobs:
           exclusions: '*.git* *.zip *.xcf *.txt package.json'
       - name:  'Automated Version Bump'
         uses:  'phips28/gh-action-bump-version@master'
+        env:
+          PACKAGE_FILENAME:  'pack.mcmeta'
         with:
           tag-prefix: 'v'
 
