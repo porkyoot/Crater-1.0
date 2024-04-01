@@ -26,10 +26,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Download File Action
-        uses: Minionguyjpro/Download-File-Action@v1
-        with:
-          url: https://vanillatweaks.net/download/VanillaTweaks_r815931.zip
-          path: /tmp/vanilla-tweaks.zip
+        run: wget https://vanillatweaks.net/download/VanillaTweaks_r815931.zip -o /tmp/vanilla-tweaks.zip
             
       - uses: montudor/action-zip@v1
         with:
