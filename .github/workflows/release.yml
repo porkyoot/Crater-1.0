@@ -25,8 +25,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Download File Action
-        run: wget https://vanillatweaks.net/download/VanillaTweaks_r815931.zip -o /tmp/vanilla-tweaks.zip
+      - name: wget
+        uses: wei/wget@v1
+        with:
+          args: -O /tmp/vanilla-tweaks.zip https://vanillatweaks.net/download/VanillaTweaks_r815931.zip
             
       - uses: montudor/action-zip@v1
         with:
