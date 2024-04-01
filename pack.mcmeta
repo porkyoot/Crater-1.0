@@ -2,8 +2,8 @@
     "name" : "crater_minecraft",
     "author" : "Étoile @porkyoot",
     "pack" : {
-        "pack_format" : 22,
-        "supported_formats" : [15, 22],
+        "pack_format" : 15,
+        "supported_formats" : [15, 31],
         "description" : "Custom RessourcePack using CustomModelData for the Crater server",
         "language" : {
             "us_us" : {
