@@ -42,6 +42,14 @@
 			"model": "item/warp_portals/technical_warped_orb"
 		},
 		{
+			"predicate": { "custom_model_data": 137509},
+			"model": "item/warp_portals/sticky_orb"
+		},
+		{
+			"predicate": { "custom_model_data": 137510},
+			"model": "item/warp_portals/sticky_warped_orb"
+		},
+		{
 			"predicate": { "custom_model_data": 376221},
 			"model": "item/warp_portals/warped_orb"
 		}
