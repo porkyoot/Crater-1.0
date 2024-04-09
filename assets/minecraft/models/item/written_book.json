@@ -50,6 +50,34 @@
 			"model": "item/warp_portals/sticky_warped_orb"
 		},
 		{
+			"predicate": { "custom_model_data": 137511},
+			"model": "item/warp_portals/end_orb"
+		},
+		{
+			"predicate": { "custom_model_data": 137512},
+			"model": "item/warp_portals/end_warped_orb"
+		},
+		{
+			"predicate": { "custom_model_data": 137513},
+			"model": "item/warp_portals/east_orb"
+		},
+		{
+			"predicate": { "custom_model_data": 137514},
+			"model": "item/warp_portals/east_warped_orb"
+		},
+		{
+			"predicate": { "custom_model_data": 137515},
+			"model": "item/warp_portals/water_orb"
+		},
+		{
+			"predicate": { "custom_model_data": 137516},
+			"model": "item/warp_portals/water_warped_orb"
+		},
+		{
+			"predicate": { "custom_model_data": 137599},
+			"model": "minecraft:item/written_book"
+		},
+		{
 			"predicate": { "custom_model_data": 376221},
 			"model": "item/warp_portals/warped_orb"
 		}
