@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/lantern"
+  },
+  "overrides": [
+		{
+			"predicate": { "custom_model_data": 137500},
+			"model": "item/decoration/amethyst_lantern"
+		},
+		{
+			"predicate": { "custom_model_data": 137501},
+			"model": "item/decoration/copper_lantern"
+		}
+  ]
+}
