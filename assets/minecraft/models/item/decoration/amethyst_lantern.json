@@ -53,11 +53,11 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [70, 0, 0],
+			"rotation": [30, 0, 0],
 			"translation": [0, -2.5, -2.5]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [70, 0, 0],
+			"rotation": [30, 0, 0],
 			"translation": [0, -2.5, -2.5]
 		},
 		"firstperson_righthand": {
