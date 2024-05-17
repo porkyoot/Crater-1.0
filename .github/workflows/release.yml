@@ -42,7 +42,7 @@ jobs:
         with:
           type: 'zip'
           filename: 'crater-ressourcepack.zip'
-          exclusions: '*.git* *.zip *.xcf merge/*'
+          exclusions: '*.git* *.zip *.xcf *.bbmodel merge/*'
 
       - name: Bump version and push tag
         id: tag_version
