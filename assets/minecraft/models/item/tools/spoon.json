@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "item/tools/tools/spoon"
+    "layer0": "item/tools/spoon"
   }
 }
