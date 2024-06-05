@@ -8,6 +8,7 @@
         { "predicate": {"custom_model_data": 2}, "model": "item/weapons/vaporwave_sword"},
         { "predicate": {"custom_model_data": 3}, "model": "item/weapons/ocams_razor"},
         { "predicate": {"custom_model_data": 137500}, "model": "item/weapons/heavens_gate"},
-        { "predicate": {"custom_model_data": 137501}, "model": "item/weapons/heavens_gate_aura"}
+        { "predicate": {"custom_model_data": 137501}, "model": "item/weapons/heavens_gate_aura"},
+        { "predicate": {"custom_model_data": 137502}, "model": "item/weapons/heavens_gate_aura_full"}
   ]
 }
