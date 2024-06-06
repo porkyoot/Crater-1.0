@@ -605,5 +605,6 @@
 			"children": [35, 36, 37]
 		},
 		38
-	]
+	],
+    "ambientocclusion": false
 }
